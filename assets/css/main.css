@@ -207,15 +207,24 @@ input, select, textarea {
 
 	.workSectionTitle {
 		font-size: 1.5rem;
-		line-height: 1.4;
+		line-height: normal;
 		letter-spacing: 0.1rem;
 	}
 
 	.placeOfWorkSubheader {
-		font-size: 1.2rem;
-		font-weight: 200;
-		line-height: 1.4;
+		font-size: 1.3rem;
+		font-weight: 300;
+		line-height: normal;
+		text-transform: none;
 		letter-spacing: 0.1rem;
+	}
+
+	.timeOfWorkSubheader {
+		font-size: 1.1rem;
+		font-weight: 100;
+		line-height: normal;
+		text-transform: none;
+		letter-spacing: 0.1rem; 
 	}
 	
 	.portfolioSectionTitle {
